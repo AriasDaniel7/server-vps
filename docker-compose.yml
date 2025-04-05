@@ -16,15 +16,15 @@ services:
     networks:
       - portfolio-network
 
-  caddy:
-    image: caddy:2.6.0
-    container_name: caddy-http3
-    ports:
-      - "8080:8080"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:ro
-    networks:
-      - portfolio-network
+  # caddy:
+  #   image: caddy:2.6.0
+  #   container_name: caddy-http3
+  #   ports:
+  #     - "8080:8080"
+  #   volumes:
+  #     - ./Caddyfile:/etc/caddy/Caddyfile:ro
+  #   networks:
+  #     - portfolio-network
 
 networks:
   portfolio-network:
