@@ -1,0 +1,1 @@
+import"./chunk-2NFLSA4Y.js";var o=[{path:"",loadComponent:()=>import("./chunk-VG3LF5LC.js"),title:"Portafolio"},{path:"about-me",loadComponent:()=>import("./chunk-UV3SJDRG.js"),title:"Acerca de m\xED"},{path:"**",redirectTo:""}],t=o;export{t as default,o as portfolioRoutes};
