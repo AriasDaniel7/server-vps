@@ -1,4 +1,4 @@
-http://181.55.22.57 {
+https:danielariaspruebas.site {
     reverse_proxy app:3000
 	tls internal
 }
